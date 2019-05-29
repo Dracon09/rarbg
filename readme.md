@@ -4,7 +4,7 @@ Adapter for Torrent API ([see docs](https://torrentapi.org/apidocs_v2.txt)) that
 
 ## Installation
 
-Requires Python 3.5 or later.
+Requires Python 3.6 or later.
 
 ```
 pip install -U rarbg
