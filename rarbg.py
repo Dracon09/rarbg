@@ -32,7 +32,7 @@ TEMPLATE = Template('''\
             <description/>
             <guid>{{entry.hash}}</guid>
             <pubDate>{{entry.pubdate}}</pubDate>
-            <link>{{entry.download}}</link>
+            <link>{{entry.download | e}}</link>
             <enclosure
                 url="{{entry.download | e}}"
                 length="{{entry.size}}"
