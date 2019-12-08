@@ -1,7 +1,5 @@
-FROM python:3.6
+FROM python:3
 WORKDIR /app
-ADD setup.py .
-RUN pip install -e .
-ADD . .
+RUN pip install rarbg
 EXPOSE 4444
 CMD rarbg
